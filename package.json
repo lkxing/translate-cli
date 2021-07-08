@@ -1,0 +1,26 @@
+{
+  "name": "translate-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "translate-cli": "./bin/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lingui/core": "^3.10.4",
+    "esm": "^3.2.25",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.7",
+    "jscodeshift": "^0.13.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "react": "^17.0.2"
+  }
+}
